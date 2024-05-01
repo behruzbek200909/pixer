@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero{
+height: 56px;
+box-shadow: 0px 4px 20px 0px #0000001A;
+background: #FFFFFF;
+  margin-bottom: 100px;
+}
+
+.hero__wrapper{
+    height: 50px;
+    display: flex;
+    gap: 500px;
+    align-items: center;
+}
+
+.hero__wrapper__content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.hero__wrapper__content ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero__wrapper__content a{
+    font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000;
+text-decoration: none;
+}
+
+.hero__wrapper__content button{
+    width: 159px;
+height: 40px;
+border-radius: 5px;
+background: #00BAFC;
+border: none;
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.uzum{
+    width: 86%;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.uzum__market h1{
+    height: 90px;
+    font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 39px;
+text-align: left;
+color: #000;
+}
+
+.uzum__market p{
+    height: 90px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000;
+}
+
+.uzum__market button{
+   width: 232px;
+height: 40px;
+border-radius: 5px;
+    background: #00BAFC;
+    border: none;
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+color: #fff;
+}
+
+.kleidung{
+    width: 78%;
+    padding-left: 230px;
+    margin-bottom: 50px;
+}
+
+.kleidung h2{
+    height: 40px;
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.2px;
+text-align: center;
+color: #000;
+}
+
+.kleidung p{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #000;
+}
+
+.kleidung__marketing {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.schal{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+height: 260p;
+border-radius: 5px;
+box-shadow: 0px 8px 8px 0px #0000001A;
+background: #FFFFFF;
+}
+
+.port{
+     padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+height: 260p;
+border-radius: 5px;
+box-shadow: 0px 8px 8px 0px #0000001A;
+background: #FFFFFF;
+}
+
+.slake{
+     padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+height: 260p;
+border-radius: 5px;
+box-shadow: 0px 8px 8px 0px #0000001A;
+background: #FFFFFF;
+}
+.schal__hut h3{
+    height: 30px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: center;
+color: #000;
+}
+
+.schal__hut p{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+
+}
+
+.lemon h2{
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.2px;
+text-align: center;
+}
+
+.lemon p{
+    width: 820px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+padding-left: 200px;
+
+}
+
+.ice{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-left: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ice__kream{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+border-radius: 5px;
+box-shadow: 0px 8px 8px 0px #0000001A;
+background: #FFFFFF;
+}
+
+.ice__kream__pie h3{
+    height: 30px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: center;
+color: #000;
+}
+
+.ice__kream__pie p{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+}
+
+.cake{
+    display: flex;
+    gap: 20px;
+    margin-left: 400px;
+    align-items: center;
+}
+
+.fruite{
+    width: 167px;
+height: 40px;
+border-radius: 5px;
+background: #00BAFC;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+padding-top: 8px;
+color: #fff;
+text-decoration: none;
+}
+
+.dragon{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #00BAFC;
+}
+
+.melon{
+    width: 70%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.melon__grape h2{
+    height: 30px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+color: #000;
+}
+
+.melon__grape p{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000;
+}
+
+.orange{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.orange__plum h2{
+    height: 30px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+color: #000;
+}
+
+.orange__plum p{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000;
+}
+
+.google{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.google__play h2{
+     height: 30px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+color: #000;
+}
+
+.google__play p{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000;
+}
+
+.telegram{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.telegram__muloqot h2{
+    height: 30px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+color: #000;
+}
+
+.telegram__muloqot p{
+     font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000;
+}
+
+.param{
+    height: 530px;
+    background: #00BAFC;
+}
+
+.param__option {
+    width: 80%;
+    padding-left: 260px;
+    padding-top:50px;
+    margin-bottom: 30px;
+}
+
+.param__option h2{
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.2px;
+text-align: center;
+color: #fff;
+}
+
+.param__option p{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #fff;
+}
+
+.fro {
+    width: 348px;
+height: 304px;
+border-radius: 5px;
+background: #FFFFFF;
+margin-left: 435px;
+padding-left: 25px;
+padding-top: 20px;
+}
+
+
+.point{
+    width: 300px;
+height: 56px;
+border-radius: 5px;
+background: #F3F3F3;
+border: transparent;
+font-family: Open Sans;
+font-size: 16px;
+padding-left: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000;
+    margin-bottom: 20px;
+}
+
+.fro button{
+   width: 167px;
+height: 40px;
+border-radius: 5px;
+ background: #00BAFC;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+color: #fff;
+border: none;
+margin-left: 60px;
+
+}
+
+.peppsi {
+    background: #191919;
+}
+.mim{
+    display: flex;
+    gap: 100px; margin-top: 50px;
+}
+
+.peppsi__cola{
+    width: 76%;
+    display: flex;
+    gap: 100px;
+
+}
+
+.peppsi__cola__fanta h2{
+    height: 40px;
+     margin-top: 50px;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+    color: #fff;
+}
+
+
+
+.peppsi__cola__fanta p{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #fff; 
+}
+
+
+
+.peppsi__cola h2{
+      width: 200px;
+      height: 40px;
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+    color: #fff;
+}
+
+.peppsi__cola ul{
+    list-style: none;
+}
+
+.peppsi__cola a{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #fff;
+text-decoration: none;
+}
+
